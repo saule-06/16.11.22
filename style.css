@@ -6,6 +6,10 @@ body{
   margin: 0;
 }
 nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 50px;
   background-color: rgb(9, 9, 126);
 }
@@ -24,10 +28,10 @@ nav ul li a{
 
 }
 nav a{
-  padding: 10px 10px;
+  padding: 8px 10px;
 }
 nav ul li a:hover {
 background-color: rgb(30, 155, 155);
-color: blueviolet;
+color: springgreen;
 transform: all 300ms;
 }

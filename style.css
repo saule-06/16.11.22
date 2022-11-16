@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display:ital@1&family=Prata&display=swap');
 *{
   box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+nav{
+  height: 50px;
+  background-color: rgb(9, 9, 126);
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'DM Serif Display', serif ;
+}
+nav ul li{
+list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+
+}
+nav a{
+  padding: 10px 10px;
+}
+nav ul li a:hover {
+background-color: rgb(30, 155, 155);
+color: blueviolet;
+transform: all 300ms;
 }

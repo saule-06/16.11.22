@@ -35,3 +35,50 @@ background-color: rgb(30, 155, 155);
 color: springgreen;
 transform: all 300ms;
 }
+header {
+  background-image: url(./line.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+ height: 100vh;
+ display: flex;
+ color: white;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+header p {
+ padding: 10px 10px;
+}
+.one {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  display: flex;
+
+ color:goldenrod;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+.one p {
+  color: rgb(187, 19, 19);
+  text-align: center;
+}
+.tree {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  font-size: 30px;
+  display: flex;
+
+ color:chartreuse;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.tree p {
+font-size: 20x;
+  color: black;
+}
